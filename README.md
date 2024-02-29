@@ -12,13 +12,13 @@ The pipeline is designed to:
 
 
 ## Details regarding the components: 
-Reddit API: Source of the data.
-Apache Airflow & Celery: Orchestrates the ETL process and manages task distribution.
-PostgreSQL: Temporary storage and metadata management.
-Amazon S3: Raw data storage.
-AWS Glue: Data cataloging and ETL jobs.
-Amazon Athena: SQL-based data transformation.
-Amazon Redshift: Data warehousing and analytics.
+1. Reddit API: Source of the data.
+2. Apache Airflow & Celery: Orchestrates the ETL process and manages task distribution.
+3. PostgreSQL: Temporary storage and metadata management.
+4. Amazon S3: Raw data storage.
+5. AWS Glue: Data cataloging and ETL jobs.
+6. Amazon Athena: SQL-based data transformation.
+7. Amazon Redshift: Data warehousing and analytics.
 
 
 Special thanks to CodeWithYu
